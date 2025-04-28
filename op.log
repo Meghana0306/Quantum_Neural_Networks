@@ -1,0 +1,24 @@
+C:\Users\hp\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\hp\PycharmProjects\PythonProject\qnn.py 
+Synthetic Dataset Preview:
+   id  age  income  spending_score  purchase_frequency
+0   1   56   30302              35                  15
+1   2   69  112558              70                  19
+2   3   46   30055              83                   7
+3   4   32  141317              30                  28
+4   5   60   38717              71                  43
+C:\Users\hp\PycharmProjects\PythonProject\qnn.py:94: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=cluster_avg, x='Cluster', y='spending_score', palette='viridis')
+
+Cluster Statistics:
+               age        income  spending_score  purchase_frequency
+Cluster                                                             
+0        54.283237  87334.028902       48.508671           14.245665
+1        27.256484  85361.109510       47.582133           25.605187
+2        52.589577  94653.442997       51.586319           40.104235
+
+Dataset with clusters saved as 'segmented_customers_manual.csv'
+
+Process finished with exit code 0
